@@ -1,1 +1,1 @@
-include ':app', ':fpsplot'
+include ':app'
