@@ -1,10 +1,10 @@
 package com.code.ginniegao.myapplication
 
+import android.app.Activity
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 import com.code.ginniegao.fpsplot.FpsPlotter
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : Activity() {
     private val TAG = "MainActivity"
 
     override fun onCreate(savedInstanceState: Bundle?) {
