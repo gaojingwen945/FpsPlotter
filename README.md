@@ -5,15 +5,15 @@ A library for Android platform to observe fps status and convert the fps data to
 How to use
   1. Like the example in MyApplication, add fpsPlotter to your project：
     a) In build.gradle, add dependency:
-        Step 1. Add the JitPack repository to your build file
-            	allprojects {
+        
+              allprojects {
             		repositories {
             			...
             			maven { url 'https://jitpack.io' }
             		}
             	}
-        Step 2. Add the dependency
-            	dependencies {
+            	
+              dependencies {
             	        compile 'com.github.gaojingwen945:FpsPlotter:v1.0.9'
             	}
 
