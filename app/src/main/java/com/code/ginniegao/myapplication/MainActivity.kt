@@ -12,6 +12,7 @@ class MainActivity : Activity() {
         setContentView(R.layout.activity_main)
 
         FpsPlotter.start(applicationContext, "fps")
+        openWrite(true)
     }
 
     /**

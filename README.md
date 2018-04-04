@@ -17,11 +17,14 @@ How to use
             	        compile 'com.github.gaojingwen945:FpsPlotter:v1.0.9'
             	}
 
-    b) In your activity.onCreate(), add "FpsPlotter.start(applicationContext, "fps")", where "fps" is your data file name of type .csv
+    b) In your activity.onCreate(), add "FpsPlotter.start(applicationContext, "fps")" in Kotlin, where "fps" is your
+    data file name of type .csv
 
-    c) In your activity.onDestroy(), add "FpsPlotter.stop()"
+    c) In your activity.onDestroy(), add "FpsPlotter.stop()" in Kotlin
 
-    d) You can also control when to start/stop fps sampling via "FpsPlotter.writeOpen = true/false"
+    d) You can also control when to start/stop fps sampling via "FpsPlotter.writeOpen = true/false" in Kotlin. The
+    writeOpen is set to default false. Normally, you can set it to 'true' when your observing list starts scrolling,
+    and set it to 'false' when your list is idle.
 
   2. Run your project to collect data to "fps.csv" (by default):
     the default data directory is "sdcard\Android\data\yourPackageName\files\Log\fps.csv" (remember to replace the "yourPackageName" with your real package name) if you have sdcard,

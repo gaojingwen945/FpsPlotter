@@ -14,7 +14,7 @@ object FpsPlotter {
     private val fpsSampleUtil = FpsSampleUtil()
     private val logFileWriter = FpsFileWriter()
     @Volatile
-    var writeOpen = true // 文件写开关，通常可以在列表静止时关闭，在列表滑动时打开
+    var writeOpen = false // 文件写开关，通常可以在列表静止时关闭，在列表滑动时打开
 
     fun start(mContext: Context, csvFileName: String) {
         // 初始化，设置文件名
