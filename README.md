@@ -14,7 +14,7 @@ How to use
             	}
             	
               dependencies {
-            	        compile 'com.github.gaojingwen945:FpsPlotter:v1.0.10'
+            	        compile 'com.github.gaojingwen945:FpsPlotter:v1.0.9'
             	}
 
     b) In your activity.onCreate(), add "FpsPlotter.start(applicationContext, "fps")" in Kotlin, where "fps" is your
