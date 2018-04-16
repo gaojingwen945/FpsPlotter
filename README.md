@@ -33,5 +33,8 @@ How to use
   3. Pull the data file from your phone to your computer and put it in the "plotFps" folder of this project.
 
   4. In the "plotFps" folder, run the python script to generate curve graph, e.g. "python plotFps.py fps" where fps is your csv file name.
+  
+  --
+ Note: Do not use version newer than 1.0.9 now, cause the newer versions are having some nonsense troubles with their jitpack pushlishments...
  
  
